@@ -3,7 +3,7 @@ function calc(math, a, b) {
     console.log('EROR cant divide by zero');
   }
   else if (typeof a !== 'number' || typeof b !== 'number' || typeof a === undefined || typeof b === undefined) {
-    console.log('Введи правельное значение');
+    console.log('Введи правильное значение');
   }
   else if (math === 'min') {
     console.log(a - b);
